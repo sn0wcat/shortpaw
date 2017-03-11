@@ -1,5 +1,6 @@
 {
   "name": "short-paw-theme",
+  "icon": "images/B.png",
   "displayName": "Short Paw (dark)",
   "description": "VS Code Theme based on Tinacious Design Colors",
   "categories": [
@@ -18,8 +19,7 @@
         "uiTheme": "vs-dark",
         "path": "./themes/dark_plus.json"
       }
-    ],
-    "iconThemes": []
+    ]
   },
   "repository": "https://github.com/sn0wcat/shortpaw.git"
 }
