@@ -1,0 +1,7 @@
+# Language setting
+language: node_js
+install:
+- npm install -g vsce
+# Running the tests with grunt
+script:
+  - vsce package
