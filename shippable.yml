@@ -7,6 +7,7 @@ script:
   - vsce package
 
 after_script:
+  - chmod + x deploy.sh
   - ./deploy.sh owner=sn0wcat repo=shortpaw tag=latest
 
 secure: RD0vOHsJdb+IOnkWQfJVXUyce1rXySe95qvJnrpSHF2QLB+qYc5YINPgG/PodP+LVrNRipCEhawrzcMeMnT2GwGT95mnr5xzF61X0BFNmb+ZZxKU8O4Wyt54t27HDFsWFYXcmLB5keh4FBA3xHutsyEivDosr1xjlYO0sAU7vUGi/ITN4P32FdM+GXWB3cGTUL1Qsd8kz3HajSiNkumv8R9KMpOYgu4To8FIrz5yEkwtHOGbFaKGrbnTBvotpsiWPRXEWlAUEurKVcYrOB7blAdUmO1iKz0juQRlXi1NEkb+CMKq1iPY9eh07yixklskrV8wWDReFXVfpTdca1B6Dw==

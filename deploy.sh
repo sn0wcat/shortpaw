@@ -37,8 +37,6 @@ eval $(echo "$response" | grep -m 1 "id.:" | grep -w id | tr : = | tr -cd '[[:al
 # Upload asset
 echo "Uploading asset... $localAssetPath" >&2
 
-
-
 # Construct url
 GH_ASSET="https://uploads.github.com/repos/$owner/$repo/releases/$id/assets?name=$(basename $filename)"
 
