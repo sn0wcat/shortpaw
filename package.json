@@ -1,0 +1,24 @@
+{
+    "name": "short paw theme",
+    "displayName": "Short Paw (dark)",
+    "description": "VS Code Theme based on Tinacious Design Colors",
+    "categories": [
+        "Themes"
+    ],
+    "version": "0.1.10",
+    "publisher": "vscode",
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "id": "short paw",
+                "label": "Short Paw (dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark_plus.json"
+            }
+        ],
+        "iconThemes": []
+    }
+}
