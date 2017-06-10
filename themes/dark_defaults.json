@@ -1,0 +1,11 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Dark Default Colors",
+	"colors": {
+		"editorIndentGuide.background": "#4A4A63",
+        "sideBar.background" : "#1A1A23",
+        "activityBar.background": "#4A4A63",
+        "tab.border": "#4A4A63"
+
+	}
+}

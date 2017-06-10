@@ -1,5 +1,8 @@
 {
 	"name": "Short Paw Dark",
+
+	"include" :"dark_defaults.json",
+
 	"settings": [
 		{
 			"settings": {
