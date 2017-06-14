@@ -5,7 +5,10 @@
 		"editorIndentGuide.background": "#4A4A63",
         "sideBar.background" : "#1A1A23",
         "activityBar.background": "#4A4A63",
-        "tab.border": "#4A4A63"
+        "tab.border": "#4A4A63",
+		"badge.background": "#2c2c3e",
+		"badge.foreground": "#B3B3D4",
+		"sideBar.border": "#2c2c3e"
 
 	}
 }
