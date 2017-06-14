@@ -4,6 +4,11 @@ env:
 
 # Language setting
 language: node_js
+
+# version numbers
+node_js:
+  - "6.5.0"
+  
 install:
 - npm install -g vsce
 # Running the tests with grunt
